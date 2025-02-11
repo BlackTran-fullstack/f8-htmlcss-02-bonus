@@ -46,6 +46,8 @@ a {
 
     background: var(--primary-color);
     color: #fff;
+
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -555,6 +557,13 @@ a {
 
     object-fit: cover;
     opacity: 0.35;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.courses .course-item:hover .course-image {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .courses .course-item .course-info {
@@ -845,6 +854,10 @@ a {
     font-size: 1.6rem;
 
     color: #535353;
+}
+
+.footer .footer-top .footer-list .footer-item a:hover {
+    text-decoration: underline;
 }
 
 .footer .footer-top .footer-list .footer-item + .footer-item {
